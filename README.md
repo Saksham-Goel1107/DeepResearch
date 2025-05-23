@@ -1,94 +1,102 @@
-# Build Deep Research AI Agent with Next.js, Vercel AI SDk and LLMs like Gemini, Deepseek & Gpt-4o
+# Deep Research AI Assistant 🔍
 
-A powerful Deep Research AI agent like Gemini or ChatGPT. Using Next.js, Vercel AI SDK, and Exa Search API, An intelligent system that generates follow-up questions, crafts optimal search queries, and compiles comprehensive research reports.
+[![MIT License](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
+[![Next.js](https://img.shields.io/badge/Next.js-15-black)](https://nextjs.org/)
+[![TypeScript](https://img.shields.io/badge/TypeScript-5-blue)](https://www.typescriptlang.org/)
+[![OpenRouter](https://img.shields.io/badge/AI-OpenRouter-purple)](https://openrouter.ai/)
 
-![GitHub stars](https://img.shields.io/github/stars/codebucks27/Deep-Research-AI-Agent?style=social&logo=ApacheSpark&label=Stars)&nbsp;&nbsp;
-![GitHub forks](https://img.shields.io/github/forks/codebucks27/Deep-Research-AI-Agent?style=social&logo=KashFlow&maxAge=3600)&nbsp;&nbsp;
-![Github Followers](https://img.shields.io/github/followers/codebucks27.svg?style=social&label=Follow)&nbsp;&nbsp;<br />
+An AI-powered research assistant that helps you explore topics deeply and generate comprehensive reports. Built with Next.js, TypeScript, and OpenRouter API.
 
-If you want to learn how to create it please follow below tutorial👇: <br />
-➡ Tutorial Link 💚: [Deep research ai agent](https://youtu.be/zKN18GQBxCM) <br />
+![Research Process](app%20screenshots/Researching.png)
+![Final Report](app%20screenshots/Final%20output%20with%20report.png)
 
-[![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/zKN18GQBxCM/0.jpg)](https://www.youtube.com/watch?v=zKN18GQBxCM)
+## Features 🚀
 
-🎯 For customised solutions or deployment please contact: https://tally.so/r/wdlj0N
+- **Interactive Topic Exploration**: Start with a topic and answer clarifying questions to focus your research
+- **AI-Powered Research**: Automated research process using advanced language models
+- **Real-time Progress Tracking**: Watch as the AI conducts research and analyzes information
+- **Comprehensive Reports**: Get well-structured, Word-compatible HTML reports
+- **Beautiful UI**: Modern, responsive interface with a clean design
+- **Source Attribution**: Transparent sourcing with references and citations
 
-#### ⭐DO NOT FORGET TO STAR THIS REPO⭐
+## Tech Stack 💻
 
-![deep research Ai Agent](https://github.com/codebucks27/Deep-Research-AI-Agent/blob/main/app%20screenshots/Final%20output%20with%20report.png)
+- **Frontend**: Next.js 15, React, TypeScript
+- **State Management**: Zustand
+- **Styling**: Tailwind CSS, Shadcn/ui
+- **AI Integration**: OpenRouter API
+- **Development Tools**: ESLint, PostCSS
 
-## 🚀 Key Features  
+## Getting Started 🌟
 
-- 🔧 Fully Customizable Research Flow
-- 🔍 Adaptive Search Queries
-- ⚙️ Seamless LLM Integration
-- 💼 Modular Components
-- 🌐 Next.js & Vercel AI SDK
-- ♻️ Iterative Research Loop
+### Prerequisites
 
-## 🛠️ Tech Stack
+- Node.js 18+ 
+- npm or yarn
+- OpenRouter API key
 
-- **Framework:** Next.js 15 (App Router)
-- **Styling:** Tailwind CSS, Shadcn UI
-- **AI Integration:** Vercel AI SDK
-- **LLMs:** GPT-4o, Gemini, Deepseel using OpenRouter
-- **Web Search:** Exa Search API
-- **UI Components:** Shadcn
-- **Language:** TypeScript
+### Installation
 
-## ⚡ Prerequisites
-
-Before you begin, ensure you have:
-
-- OpenRouter API key (or you can use grok or any other LLM providers) 
-- Exa search API key
-
-## 🚀 Setup Instructions
-
-### 1. Clone the Repository
-
-```bash
-git clone [repo-url]
-cd Deep-Research-AI-Agent
+1. Clone the repository
+```powershell
+git clone https://github.com/Saksham-Goel1107/DeepResearch.git
+cd DeepResearch
 ```
 
-### 2. Install Dependencies
-
-> **NOTE:** When installing the required dependencies, use the `--legacy-peer-deps` flag if you encounter any issues with inter-dependent dependencies.
-
-```bash
+2. Install dependencies
+```powershell
 npm install
-# or
-yarn install
-# or
-pnpm install
 ```
 
-### 3. Environment Variables
+3. Set up environment variables
+Create a `.env.local` file in the root directory:
+```env
+OPENROUTER_API_KEY=your_api_key_here
+EXA_SEARCH_API_KEY=your_api_key_here
+```
 
-Create a `.env.local` file in the root directory. Check `.env.example` for required variables.
-
-### 4. Start Development Server
-
-```bash
+4. Start the development server
+```powershell
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
 ```
 
-Visit `http://localhost:3000` to see your app.
+The application will be available at `http://localhost:3000`.
 
-## 🌟 Show Your Support
+## Usage 📚
 
-Give a ⭐️ if this project helped you!
+1. Enter your research topic in the main input field
+2. Answer the clarifying questions to help focus the research
+3. Watch as the AI conducts research in real-time
+4. Review the generated report
+5. Download the report in Word-compatible HTML format
 
-If you have any question or want a custom build for your business, you can reach out to me via:
+## Project Structure 📁
 
-- E-mail : codebucks27@gmail.com
-- Twitter: https://twitter.com/code_bucks
-- Instagram: https://www.instagram.com/code.bucks/
+- `/src/app` - Next.js application routes and API endpoints
+- `/src/components` - React components including UI elements
+- `/src/store` - Zustand store for state management
+- `/src/lib` - Utility functions and helpers
 
-MyChannel: https://www.youtube.com/codebucks
-My Website: https://devdreaming.com/
+## Contributing 🤝
+
+Contributions are welcome! Feel free to:
+1. Fork the repository
+2. Create a feature branch
+3. Submit a pull request
+
+Please ensure your code follows the existing style and includes appropriate tests.
+
+## License 📄
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+## Author ✨
+
+**Saksham Goel**
+- GitHub: [@Saksham-Goel1107](https://github.com/Saksham-Goel1107)
+
+## Acknowledgments 🙏
+
+- Built with [Next.js](https://nextjs.org/)
+- UI components from [shadcn/ui](https://ui.shadcn.com/)
+- AI powered by [OpenRouter](https://openrouter.ai/)
